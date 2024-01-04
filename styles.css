@@ -27,7 +27,7 @@ li a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li a:hover{
-    color: lawngreen;
+    color: #2ECB71;
 }
 .logo{
     float: left;
@@ -48,7 +48,10 @@ h1{
     margin: 50px;
 }
 .txtcontnet p{
-    padding: 10px 0 0 0;
+    padding:  0 0 0;
+    font-size: 20px;
+    line-height: 25px;
+    
 }
 .progress{
     display: flex;
@@ -62,20 +65,20 @@ h1{
 }
 .txtcontnet h1 a{
     
-    color: green;
+    color: #2ECB71;
     text-decoration: none;
     
     
 }
 .btnhire{
-    border: 3px solid green;
+    border: 3px solid #2ECB71;
     padding: 10px;
     margin: 20px 0 0 0;
     width: max-content;
     
 }
 progress[value] {
-    --color: green;
+    --color: #2ECB71;
     --background: lightgrey;
     -webkit-appearance:none;
     -moz-appearance:none;        
@@ -100,12 +103,12 @@ progress[value] {
   }
   .progressbar{ 
     margin-top: 20px;
-    background-color: rgb(192, 192, 192); 
+    background-color: rgb(237, 233, 233); 
     width: 100%; 
         
 } 
 .skill { 
-    background-color: rgb(40, 227, 27); 
+    background-color: #2ECB71; 
     color: white; 
     padding: 1%; 
     text-align: right; 
